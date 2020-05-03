@@ -15,7 +15,7 @@ jobs:
     steps:
       - protobuf/install:
           version: 3.11.2
-      - run: go get github.com/golang/protobuf/protoc-gen-go@1.3.0
+      - run: go get github.com/golang/protobuf/protoc-gen-go@v1.2.0
       - checkout
 
       # specify any bash command here prefixed with `run: `
